@@ -446,4 +446,20 @@ margin-left: 2px;
 
  }
 
+#menu-mobile {
+    display: none;
+}
+ @media (max-width: 600px)
+{
+  #menu-pc
+   {
+    display: none;
+   }
+   #menu-mobile {
+    display: block;
+    }
+    .main-sobre {
+     flex-wrap: wrap;
+    }
+}
     
