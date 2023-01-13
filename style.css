@@ -12,7 +12,6 @@
     background-position: center;
     height: 100vh;
     width: 100%;
-
 }
 
 nav{
@@ -146,7 +145,7 @@ aside{
     right: 0;
     display: flex;
     overflow: hidden;
-    
+
 }
 
 .icon-menu .menu{
@@ -154,12 +153,12 @@ font-size: 30px;
 color:#fff ;
 margin-top: 15px;
 margin-right: 15px;
-display: none;
+
 }
 #barra-menu{
    background-color:#191919;
    height: 100vh;
-   width: 0px;
+   width: 180px;
    transition: 0.3s all;
 }
 #barra-menu ul li{
@@ -174,8 +173,8 @@ display: none;
 }
 #barra-menu ul li a:hover{
     border: solid 1px #101010;
-    padding: 10px;
-    border-radius: 15px;
+    padding: 15px;
+    border-radius:15px;
     background-color: #858585;
 }
 .c-icon{
@@ -374,7 +373,7 @@ footer p{
     bottom: 35px;
     font-size: 14px ;
 }
-@media screen and(max-width:375px){
+@media screen and (max-width:375px){
     .inco-menu .menu{
         display:block;
     }
@@ -384,11 +383,67 @@ footer p{
 
     }
     .c-icon{
-        background-color:#fff ;
+        background-color:#f9004d ;
+        color: #fff;
         text-transform: none;
         border: 2px solid transparent ;
         font-weight: bold;
-        padding: 10px;
-   }
+        padding: 10px 5px;
+        border-radius: 30px;
+        width: 150px; 
+        margin-left: 15px;
+ }
+ .Main h1,h3{
+    font-size: 20px;
 }
+.Container-btn form{
+width: 180px;
+max-width: 100%;
+position: relative;
+margin-left: 2px;
+}
+.background-color-Sobre{
+    align-items: center;
+    text-align: center;
+}
+.main-sobre img{
+    width: 280px;
+    height: auto;
+    border-radius: 10px;
+    margin-left: -180px;
+}
+.Text-sobre h2{
+    margin-left: -180px;
+
+}
+.Text-sobre h5{
+    margin-left: -180px;
+    
+}
+.Text-sobre p{
+    font-size: 15px;
+    width: 350px;
+    margin-left: 15px;
+
+}
+.Text-sobre button{
+    margin-left: -180px;
+}
+.Container-serviços h2{
+    margin-left: 380px;
+    font-size: 40px;
+
+}
+    .me-contate p{
+        text-align: center;
+        align-items: center;
+        font-size:20px;
+
+    }
+    .logo{
+        font: size 20px; 
+    }
+
+ }
+
     
