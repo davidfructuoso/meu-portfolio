@@ -472,5 +472,9 @@ margin-left: 2px;
     .main-sobre {
      flex-wrap: wrap;
     }
+    #barra-menu {
+        width: 0;
+        overflow: hidden;
+    }
 }
     
