@@ -24,10 +24,19 @@ nav{
 }
 
 .logo{
-    color: #fff;
-    font-size: 35px;
+    color: rgb(253, 246, 246);
+    font-size: 10px;
     cursor: pointer;
     letter-spacing: 1px;
+     padding-left: 8%;
+     
+}
+#minha_logo{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+
+
 }
 span{
     color:#f9004d ;
@@ -44,6 +53,7 @@ nav ul li a{
     text-decoration: none;
     font-weight: bold;
     text-transform: capitalize;
+    font-size: 20px;
 }
 
 nav ul li a:hover{
@@ -57,7 +67,7 @@ nav ul li a:hover{
     text-decoration: none;
     border: 2px solid transparent;
     font-weight: bold;
-    padding: 10px 25px;
+    padding: 15px 30px;
     border-radius: 30px;
     transition: transform .4s;
 }
@@ -68,7 +78,7 @@ nav ul li a:hover{
 
 .Main{
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 8%;
     transform: translateY(-50%);
 }
@@ -80,19 +90,19 @@ nav ul li a:hover{
 h1{
     color: #fff;
     margin: 20px 0px 20px;
-    font-size: 75px;
+    font-size: 80px;
 }
 
 h4{
     color: #fcfc;
     letter-spacing: 2px;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 h3{
     color: #fff;
-    font-size: 25px;
-    margin-bottom: 50px;
+    font-size: 30px;
+    margin-bottom: 60px;
 }
 
 .Container-btn form{
@@ -108,6 +118,7 @@ h3{
     border: 2px solid #f9004d;
     border-radius: 30px;
     outline: none;
+    display:none;
 }
 
 .Container-btn form input:last-child{
@@ -122,7 +133,7 @@ h3{
     box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
     right: 6px;
     top: 6px;
-    
+    display:none;
 }
 
 .background-color-Sobre{
@@ -200,7 +211,7 @@ margin-right: 15px;
 
 .Text-sobre h2{
     color: #fff;
-    font-size: 75px;
+    font-size: 65px;
     text-transform: capitalize;
     margin-bottom: 20px;
 }
@@ -222,8 +233,8 @@ margin-right: 15px;
 }
 
 button{
-    background-color: #f9004d;
-    color: #fff;
+    background-color:   #f9004d;
+    color: #fff; 
     text-transform: none;
     border: 2px solid transparent;
     font-weight: bold;
@@ -235,7 +246,7 @@ button{
 
 button:hover{
     background-color: transparent;
-    border: 2px solid #f9004d;
+    border: 2px solid  #31ca57;
     cursor: pointer;
 }
 
@@ -383,7 +394,7 @@ footer p{
 
     }
     .c-icon{
-        background-color:#f9004d ;
+        background-color:#00f93a ;
         color: #fff;
         text-transform: none;
         border: 2px solid transparent ;
@@ -460,6 +471,10 @@ margin-left: 2px;
     }
     .main-sobre {
      flex-wrap: wrap;
+    }
+    #barra-menu {
+        width: 0;
+        overflow: hidden;
     }
 }
     
